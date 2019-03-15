@@ -1,0 +1,28 @@
+body {
+    font-family: $basefont;
+    background-color: $basecolor;
+}
+
+header {
+    h1 {
+        @include box;
+    }
+
+}
+
+nav {
+    background-color: white;
+
+    ul {
+        list-style: none;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+}
+
+main {
+    background-color: $accentcolor;
+}
